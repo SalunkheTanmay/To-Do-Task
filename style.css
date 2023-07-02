@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container{
+   width: 100%;
+   min-height: 100vh;
+   background-color: #435B66;
+   padding: 10px;
+}
+
+.todo-app{
+    width:100%;
+    max-width: 450px;
+    background-color: #ffff;
+    border-radius: 10px;
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    display: flex;
+    flex-direction: column;
+}
+
+.todo-app h1{
+    text-align: center;
+    margin-bottom: 0.75rem;
+}
+
+.todo-input{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #edeef0;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    border-radius: 30px;
+}
+
+
+.text-area1{
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+    font-size: 20px;
+
+}
+
+.btn{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #FFA41B;
+    padding: 20px 40px;
+    font-size: 16px;
+    border-radius: 40px;
+    color: #ffff;
+}
+
+h3{
+    text-align: center;
+}
+
+
+.task-input{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center; 
+    background-color:#F7FFE5;
+    padding: 1rem;
+     border-radius: 1rem; 
+    margin-bottom: 1rem;
+}
+
+.task-list{
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 30px;
+}
+.text-area{
+    flex: 1; 
+    color: #525FE1;
+    /* padding: 10px; */
+    width: max-content;
+    background: transparent;
+    border: none;
+    outline: none;
+      
+    font-size: 20px;
+   
+}
+
+.action {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5px;
+    align-self: flex-start;
+  } 
+
+button.edit{
+    border: none;
+    background: none;
+    background-color: #99A98F;
+    cursor: pointer;
+    padding: 10px 20px ; 
+    font-size: 16px;
+    border-radius: 40px;
+    
+}
+
+button.delete{
+    border: none;
+    background: none;
+    background-color: #99A98F;
+    cursor: pointer;
+    padding: 10px ; 
+    font-size: 16px;
+    border-radius: 40px;
+    
+}
+
